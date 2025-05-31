@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Health Analyser</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: 'var(--color-primary, #0D9488)', // Teal-600
+              secondary: 'var(--color-secondary, #0F766E)', // Teal-700
+              accent: 'var(--color-accent, #14B8A6)', // Teal-500
+              lightBg: 'var(--color-lightBg, #F0FDFA)', // Teal-50
+              darkText: 'var(--color-darkText, #1F2937)', // Gray-800
+              lightText: 'var(--color-lightText, #F9FAFB)', // Gray-50
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.2.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-lightBg text-darkText">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
