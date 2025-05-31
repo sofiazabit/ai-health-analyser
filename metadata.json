@@ -1,0 +1,6 @@
+{
+  "name": "AI Health Analyser",
+  "description": "An AI-powered application to analyze physical and psychological health data, providing interpretations and personalized recommendations using Gemini API. Data input includes physical metrics, optional medical data, and psychological well-being indicators.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
